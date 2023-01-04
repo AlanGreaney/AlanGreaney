@@ -52,7 +52,7 @@ Multiple small projects demonstrating understanding of the Python Language, such
 
 Utilizing all concepts listed above, we were to create a text adventure game to run within a command line window. Pushing this concept farther than the example we were to copy, I created a generalized framework for any game, which allowed for the creation and linking of scenes, theoretically allowing basically any text game to be loaded, the idea being I wanted to approach it with a way where any classmates' games could be loaded into my framework, instead of all being hardcoded.
 
-The Main File simply loads whatever specified game is wish to be played, and follows the scene order based off the Option-Classes. A game-print function was included, that automatically converts all story text screens into the boxes surrounded by characters, so that manual sizing of the text-promopts did not have to be done manually. A method to display ASCII images within a scene was also included.
+The Main File simply loads whatever specified game is wish to be played, and follows the scene order based off the Option-Classes. A game-print function was included, that automatically converts all story text string into the boxes surrounded by characters, so that manual sizing of the text-promopts did not have to be done manually. A method to display ASCII images within a scene was also included.
 
 <img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/textAdvEx1.PNG" width="75%">
 <img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/textAdvEx2.PNG" width="75%">
