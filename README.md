@@ -56,3 +56,13 @@ The Main File simply loads whatever specified game is wish to be played, and fol
 
 <img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/textAdvEx1.PNG" width="75%">
 <img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/textAdvEx2.PNG" width="75%">
+
+    - Week 2 - Python + Flask
+
+- [Initial Flask Projects](https://github.com/AlanGreaney/nology-coursework/tree/main/Python_Flask_Week_3/Day_2_API)
+
+Projects surrounding Flask, using Python to interact with Databases, GETS/PUTS, and HTTP Status Codes. General project was to make an API for a theoretical room tempature monitor. This would allow for remote entry of Tempatures along with the Room ID and a Timestamp, then also retrieving that data in forms such as average tempature, number of days recorded, etc.
+
+The following code snippet was a bonus I added to the project - a function to add random data into the database to simulate a previous months' worth of tempature recording to verify the other methods listed above were working well, without having to enter tons of data manually.
+
+<img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/flaskEx1.PNG" width="75%">
