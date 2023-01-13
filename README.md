@@ -6,11 +6,11 @@ I'm Alan, a Software Developer located in Southern California
 
 Formerly a musician playing the French Horn (and still Drumset), I've been programming since 2011, starting with designing and hosting customized videogame servers, expereince working in Aviation Software at Northrop Grumman, and now working at ASML via nology. Many of my hobbies intersect with programming such as video editing and arduino code (partially for model train automation), along with motorcycles and cars, movies, and still some music playing.
 
-Langauges: Java, Node/JS, C++, Lua, PHP, Python, Batch, Bash... English, a bit of Japanese...
-Concepts: OOD, Networking, Threading, API Creation/Usage
-Software: Jenkkins, GIT
-Systems: Windows  (7, 10, Server 2008), Linux (Ubuntu, Debian, Redhat)
-Databases: Mysql, MariaDB, Postgres, Json, Excel
+- Langauges: Java, Node/JS, C++, Lua, PHP, Python, Batch, Bash... English, a bit of Japanese...
+- Concepts: OOD, Networking, Threading, API Creation/Usage
+- Software: Jenkins, GIT
+- Systems: Windows  (7, 10, Server 2008), Linux (Ubuntu, Debian, Redhat)
+- Databases: Mysql, MariaDB, Postgres, Json, Excel
 
 ### Recent Personal Projects
 
