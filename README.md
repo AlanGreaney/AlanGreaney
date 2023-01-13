@@ -57,7 +57,7 @@ The Main File simply loads whatever specified game is wish to be played, and fol
 <img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/textAdvEx1.PNG" width="75%">
 <img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/textAdvEx2.PNG" width="75%">
 
-    - Week 2 - Python + Flask
+    - Week 3 - Python + Flask
 
 - [Initial Flask Projects](https://github.com/AlanGreaney/nology-coursework/tree/main/Python_Flask_Week_3/Day_2_API)
 
@@ -66,3 +66,19 @@ Projects surrounding Flask, using Python to interact with Databases, GETS/PUTS, 
 The following code snippet was a bonus I added to the project - a function to add random data into the database to simulate a previous months' worth of tempature recording to verify the other methods listed above were working well, without having to enter tons of data manually.
 
 <img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/flaskEx1.PNG" width="75%">
+
+    - Week 4 - Python Unit Testing (PyTest)
+    
+- [Text Adventure ReWork](https://github.com/AlanGreaney/nology-coursework/tree/main/Testing_Week_4/Refactor_Text_Adventure)
+
+In Week 4, we were given an introduction to the PyTest module to begin implementing into future projects. This covered concepts such as testing classes, asserts, parameerized testing, and fixtures. The first project was to add testing into the previous Text Adventure Project. Since my original code was written with Object-Oriented Programming Design, only one line of code ended up needing refactored to work PyTest into the project to test all ascpects of its workings, such as loading data, displaying the fancy squared output, and doing a turn in the gamestate.
+
+- [Zoo Manager API](https://github.com/AlanGreaney/nology-coursework/tree/main/Testing_Week_4/Zoo_Project)
+
+The prompt for this project was to start on a fresh project with OOP design and create an API for a Zoo's Management to use to track enclosures, and what animals were in them, using methods such as adding enclosures, adding animals, and viewing their various statuses. On top of the prompt, I added ways to edit the animals, and automatically return data whether enclosures were recalled by name or id.
+
+This project makes heavy use of fixtures to setup a single test database connection and a fixture of the Flask App instance used for testing, run in module mode to prevent recreation during every test. The final output includes 8 tests covering all user-features with a high rate possible of use cases, along with basic functions such as connectivity and logging. The output is put into an HTML report page for easy viewing of what is/isn't passing, with dropdown boxes that explain further what the test is doing to meet it's pass criteria.
+
+<img src="https://raw.githubusercontent.com/AlanGreaney/AlanGreaney/main/images/ZooManagerEx1.PNG" width="75%">
+
+<img src="https://raw.githubusercontent.com/AlanGreaney/AlanGreaney/main/images/ZooManagerEx2.PNG" width="75%">
