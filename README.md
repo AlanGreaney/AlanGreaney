@@ -103,7 +103,7 @@ Unfortunately, I do appear to have uncovered a bug in PyTest Coverage resulting 
 
 <img src="https://raw.githubusercontent.com/AlanGreaney/AlanGreaney/main/images/crud2.PNG" width="75%">
 
-7 Main tests were used to cover all the functionality - in addition to CRUD, I also added extra ability to check stock that had expired on it's shelf life, and check stock that was below it's "desrived reserve" level, and return JSON data containing the relevant info a parts administrator might need. The 7 tests end up being 17 in the report, as many of them run multiple timnes thanks to parametization in PyTest, allowing for the re-use of a single function multiple times with alot of data, which greatly sped up the time it took to write the tests, and the time it would take to add/change them in the future.
+7 Main tests were used to cover all the functionality - in addition to CRUD, I also added extra ability to check stock that had expired on it's shelf life, and check stock that was below it's "desrived reserve" level, and return JSON data containing the relevant info a parts administrator might need. The 7 tests end up being 17 in the report, as many of them run multiple timns thanks to parametization in PyTest, allowing for the re-use of a single function multiple times with varied of data, which greatly sped up the time it took to write the tests, and the time it would take to add/change them in the future.
 
 ```
 @pytest.fixture()
