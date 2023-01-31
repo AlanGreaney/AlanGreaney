@@ -88,3 +88,29 @@ This project makes heavy use of fixtures to setup a single test database connect
 <img src="https://raw.githubusercontent.com/AlanGreaney/AlanGreaney/main/images/ZooManagerEx1.PNG" width="75%">
 
 <img src="https://raw.githubusercontent.com/AlanGreaney/AlanGreaney/main/images/ZooManagerEx2.PNG" width="75%">
+
+    - Week 5 - CI/CD + ISTQB
+    
+Week 5 consistented half of training in CI/CD via Jenkins and AWS, and half of ISTQB princple study. There are no direct work products to show, however, there were multiple sample tests taken for ISTQB training with high scores achieved in each. The ISTQB princples and Jenkin's pipeline information is also being worked into the Week 7 project, and will be visible upon completion of that task.
+    
+    - Week 6 - CRUD Project + MongoDB
+    
+Week 6 was a CRUD application - Create/Read/Update/Delete - based in Python using MongoDB. The project breif was to create an application that tracks Parts in a wharehouse, and create a high-level of testing coverage.
+
+<img src="https://raw.githubusercontent.com/AlanGreaney/AlanGreaney/main/images/crud1.PNG" width="75%">
+
+Unfortunately, I do appear to have uncovered a bug in PyTest Coverage resulting in an unknown line being shown as "missing" coverage, but none highlighted in the app! However, full decision statement coverage has been achieved.
+
+<img src="https://raw.githubusercontent.com/AlanGreaney/AlanGreaney/main/images/crud2.PNG" width="75%">
+
+7 Main tests were used to cover all the functionality - in addition to CRUD, I also added extra ability to check stock that had expired on it's shelf life, and check stock that was below it's "desrived reserve" level, and return JSON data containing the relevant info a parts administrator might need. The 7 tests end up being 17 in the report, as many of them run multiple timnes thanks to parametization in PyTest, allowing for the re-use of a single function multiple times with alot of data, which greatly sped up the time it took to write the tests, and the time it would take to add/change them in the future.
+
+```
+@pytest.fixture()
+    def app(self, mongodb):
+        app = create_app(mongodb)
+
+        yield app
+```
+
+The creation of the test-database was done via pytest-mongodb, which allows for the very clean setup within the testing environemt as seen above, and allowed for hosting the test data locally, allowing for quick repeatability of test-cases.
