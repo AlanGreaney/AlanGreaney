@@ -20,6 +20,8 @@ Using 3d Printing and Arduino Code, I created a Topographical map that has multi
 
 <img src="https://raw.githubusercontent.com/AlanGreaney/TimezoneMap/main/img/wipImage1.jpg" width="75%">
 
+<img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/mapWip2.jpg" width="75%">
+
 - [Streamdeck Video Player](https://github.com/AlanGreaney/Streamdeck-Video-Player)
 
 Using FFMPEG and ImageMagick video/image editing libraries through NodeJS, this program converts a video into a format able to be played via the Streamdeck's API, something it was not at all designed to do even with it's LCD buttons, which made for a great challenge. A higher quality version of this GIF is available on the specific repo
@@ -34,7 +36,7 @@ Using FFMPEG and ImageMagick video/image editing libraries through NodeJS, this 
 
 Webpage Displaying usage of Flexbox for advanced webpage layouts in CSS, dynamically sized to the screen.
 
-<img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/flexbox.PNG" width="75%">
+<img src="" width="75%">
 
 - [SASS/SCSS](https://github.com/AlanGreaney/nology-coursework/tree/main/CSS_HTML_Week1/sass-two)
 
