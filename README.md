@@ -116,3 +116,19 @@ Unfortunately, I do appear to have uncovered a bug in PyTest Coverage resulting 
 ```
 
 The creation of the test-database was done via pytest-mongodb, which allows for the very clean setup within the testing environemt as seen above, and allowed for hosting the test data locally, allowing for quick repeatability of test-cases.
+
+    - Week 7 - NologyNav Testing-Focused Project
+
+Week 7 was a colloaborative project with other group members to take a project through a full agile delivery sprint. Starting with recieving a project prompt and attending a requirements gathering meeting, the project was then built using Test Driven Development, with a workload spread out through Trello project tracking.
+
+The main requirements were to use the Google Navigation API to take in a Origin/Destination and turn it into a human-readable summary including things like distance, time to travel, and modes of travel. The team made lots of deicsions about the project - hosting the code on Git and using reviewed-pull requests for every code change, the method to build up the data for the user, and how to best integrate the tests to Jenkins for automated CI/CD.
+
+This project mainly took the previous 6 weeks of training and combined it all, whilst also allowing for an experience of working in a team performing all these development techniques instead of working alone. The start of the project involved writing a detailed test plan which was the basis of all the tests and therefore development of the project to meet the outlined user stories.
+
+<img src="https://raw.githubusercontent.com/AlanGreaney/AlanGreaney/main/images/week7_1.png" width="75%">
+
+30 Tests were written to achieve 100% statement coverage using whitebox and blackbox testing techniques at the unit and system level, respectively. A notable overcome challenge durign test design was dealing with the final integration tests using live data from the Google API. Since directions often change due to traffic, road closures, ferry schedules, etc, we had to modify tests to use PyTest's Approx() module to allow a tolerance for distance/times in the route, while still testing for exact matches on items like start/end position.
+
+The Jenkins testing pipeline was setup so that a build was run and then tested after every pull request on Github, as all development was done on a team member's dev branch before being merged into the main project.
+
+<img src="https://raw.githubusercontent.com/AlanGreaney/AlanGreaney/main/images/week7_2.png" width="75%">
