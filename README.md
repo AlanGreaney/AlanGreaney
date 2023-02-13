@@ -16,9 +16,9 @@ Formerly a musician playing the French Horn (and still Drumset), I've been progr
 
 - [3d Printed + Arduino Timezone Map](https://github.com/AlanGreaney/TimezoneMap)
 
-Using 3d Printing and Arduino Code, I created a Topographical map that has multiple 4-digit 7-segment displays (Work in progress photo before building custom frame)
+Using 3d Printing and Arduino Code, I created a Topographical map that has multiple 4-digit 7-segment displays. I created my own code to sync the output on the segment displays across 4 timezones, with buttons on the breadboard to change the minute/hour and brightness/daylight-savings. More technical details in it's main repository.
 
-<img src="https://raw.githubusercontent.com/AlanGreaney/TimezoneMap/main/img/wipImage1.jpg" width="75%">
+<img src="https://raw.githubusercontent.com/AlanGreaney/TimezoneMap/main/img/mapMounted.jpg" width="75%">
 
 <img src="https://raw.githubusercontent.com/AlanGreaney/profile/main/images/mapWip2.jpg" width="75%">
 
